@@ -1,0 +1,10 @@
+<!-- Design file -->
+<design:component>
+    <design:attribute name="sObjectName" label="Object" description="Object API name" />
+    <design:attribute name="title" label="Title" />
+    <design:attribute name="numberOfColumns" label="Columns" />
+    <design:attribute name="mode" label="Mode" datasource="veiw, edit, readonly" />
+    <!-- fieldsToDisplay is a String b/c design resource doesnt accpt array -->
+    <design:attribute name="fieldsToDisplay" label="Fields" description="Copy the API name so you are using the exact API punctuation"
+    />
+</design:component>
