@@ -3,7 +3,7 @@
     access="global">
     <aura:attribute name="recordId" type="Id" />
     <aura:attribute name="sObjectName" type="String" default="Contact" />
-    <aura:attribute name="fieldsToDisplay" type="String" default="Name" />
+    <aura:attribute name="fieldsToDisplay" type="String" default="Id" />
     <aura:attribute name="title" type="String" />
     <aura:attribute name="layoutType" type="String" default="Custom" />
     <aura:attribute name="numberOfColumns" type="String" default="1" />
